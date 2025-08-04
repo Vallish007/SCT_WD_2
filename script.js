@@ -3,7 +3,7 @@ let elapsedTime = 0;
 let timerInterval = null;
 let isRunning = false;
 
-const timeDisplay = document.getElementById("time");
+const timeDisplay = document.getElementById("time ");
 const lapsContainer = document.getElementById("laps");
 const clickSound = document.getElementById("clickSound");
 
@@ -41,7 +41,7 @@ function resetStopwatch() {
   isRunning = false;
   elapsedTime = 0;
   timeDisplay.textContent = "00:00:00.00";
-  lapsContainer.innerHTML = '<p class="no-laps">No laps recorded yet.</p>';
+  lapsContainer.innerHTML = '<p class="no-laps">No laps recorded yet .</p>';
 }
 
 function recordLap() {

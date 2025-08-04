@@ -67,7 +67,7 @@ h1 {
   transition: transform 0.3s;
 }
 
-.start { background: #28a745; color: #fff; }
+.start { background: #28a745; color: #eeeeee; }
 .pause { background: #ffc107; color: #000; }
 .reset { background: #dc3545; color: #fff; }
 .lap   { background: #17a2b8; color: #fff; }
